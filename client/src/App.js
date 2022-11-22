@@ -6,9 +6,10 @@ function App() {
   return (
     <div className="app">
 			<Navbar />
-      <div className="container">
-				<Landing />
-			</div>
+      <Landing />
+      <footer className="bg-dark" style={{ height: "150px" }}>
+        <h3 className="text-center v-center text-light">Copyright &copy;</h3>
+			</footer>
     </div>
   );
 }
