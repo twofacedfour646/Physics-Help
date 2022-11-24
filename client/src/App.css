@@ -29,3 +29,17 @@ footer {
 .navbar {
 	border-radius: 0px;
 }
+
+.login-form {
+	max-width: 50%;
+	margin: 75px auto 75px;
+	padding: 20px;
+}
+
+.hover-click:hover {
+	cursor: pointer;
+}
+
+.bg-light {
+	background-color: rgba(124, 119, 119, 0.267) !important;
+}
